@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:v="clr-namespace:System;assembly=mscorlib">
+    <v:String x:Key="Title">Фиолетовая тема</v:String>
+    <v:String x:Key="String1">Белая тема</v:String>
+    <v:String x:Key="String2">Сериализация</v:String>
+    <v:String x:Key="String3">Десериализация</v:String>
+    <v:String x:Key="String4">Английский язык</v:String>
+    <v:String x:Key="String5">Русский язык</v:String>
+
+</ResourceDictionary>

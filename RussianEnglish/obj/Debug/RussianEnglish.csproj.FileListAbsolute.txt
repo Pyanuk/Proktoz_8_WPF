@@ -1,0 +1,13 @@
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\bin\Debug\RussianEnglish.dll
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\bin\Debug\RussianEnglish.pdb
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish.csproj.AssemblyReference.cache
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\Lan.baml
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\Language\English.baml
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\Language\Russian.baml
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish_MarkupCompile.cache
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish.g.resources
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish.Properties.Resources.resources
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish.csproj.GenerateResource.cache
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish.csproj.CoreCompileInputs.cache
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish.dll
+C:\Users\rhali\source\repos\CSharpPW8-WPF\RussianEnglish\obj\Debug\RussianEnglish.pdb

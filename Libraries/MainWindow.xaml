@@ -1,0 +1,43 @@
+﻿<Window x:Class="Libraries.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Libraries"
+        mc:Ignorable="d"
+        Background="{DynamicResource Primary}"
+        WindowStartupLocation="CenterScreen"
+        Title="Библиотеки" Height="450" Width="800" MinHeight="350" MinWidth="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="dataLbx" Grid.Column="0" Grid.Row="0" Grid.RowSpan="4" FontWeight="Bold" Background="{DynamicResource Secondary}" Margin="10"/>
+
+        <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" Margin="10">
+            <Button x:Name="indigoTheme" Height="25" Width="150" Margin="0,0,10,0"  FontWeight="Bold" Background="{DynamicResource Secondary}" Content="{DynamicResource Title}" Click="indigoTheme_Click"/>
+            <Button x:Name="aquamarineTheme" Height="25" Width="150"  FontWeight="Bold" Background="{DynamicResource Secondary}" Content="{DynamicResource String1}" Click="aquamarineTheme_Click"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Margin="10">
+            <TextBox x:Name="inputText" Height="25" Margin="0,0,0,10" FontWeight="Bold" Background="{DynamicResource Secondary}" materialDesign:HintAssist.Hint="Написать слово..." materialDesign:TextFieldAssist.HasClearButton="True"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="2" Margin="10">
+            <Button x:Name="serializationBtn" Height="25" Content="{DynamicResource String2}" FontWeight="Bold" Background="{DynamicResource Secondary}" Click="serializationBtn_Click"/>
+            <Button x:Name="deserializationBtn" Height="25" Content="{DynamicResource String3}" FontWeight="Bold" Background="{DynamicResource Secondary}" Click="deserializationBtn_Click"/>
+            <Button x:Name="english" Height="25" Content="{DynamicResource String5}" FontWeight="Bold" Background="{DynamicResource Secondary}" Click="english_Click" />
+            <Button x:Name="russian" Height="25" Content="{DynamicResource String4}" FontWeight="Bold" Background="{DynamicResource Secondary}" Click="russian_Click"  />
+
+        </StackPanel>
+    </Grid>
+</Window>
